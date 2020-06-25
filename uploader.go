@@ -23,7 +23,7 @@ type ErrorResponse struct {
 
 type ByModTime []os.FileInfo
 
-const YandexOauth = "{TOKEN}}"
+const YandexOauth = "{TOKEN}"
 const YandexUploadRequestUrl = "https://cloud-api.yandex.net/v1/disk/resources/upload?path={UPLOADDIR}"
 const BackupPath = "{FILEPATH}"
 
